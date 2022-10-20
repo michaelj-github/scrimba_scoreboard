@@ -1,0 +1,98 @@
+@font-face {
+  font-family: myFirstFont;
+  src: url(CursedTimerUlil-Aznm.ttf);
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  font-family: myFirstFont;
+  color: #f94f6d;
+  background-color: #cfcfcf;
+}
+
+.container {
+  width: 575px;
+  height: 385px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #1b244a;
+  border: 8px solid #fff;
+  border-radius: 20px;
+}
+
+.scores {
+  display: flex;
+  justify-content: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: #eeeeee;
+}
+
+.home,
+.guest {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 200px;
+  font-size: 30px;
+}
+
+.score {
+  padding-top: 8px;
+  width: 155px;
+  height: 120px;
+  background-color: #080001;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: myFirstFont;
+  color: #f94f6d;
+  font-size: 70px;
+}
+
+.buttons {
+  display: flex;
+  justify-content: center;
+  margin: 10px;
+}
+
+.addButton {
+  margin: 4px;
+  padding: 8px 12px;
+  background-color: #1b244a;
+  border: 1px solid #9aabd8;
+  color: #9aabd8;
+  font-family: myFirstFont;
+}
+
+h3 {
+  margin: 10px;
+}
+
+.resetButtonArea {
+  border: none;
+  margin: 20px;
+}
+
+.resetButton {
+  border: none;
+  margin: 10px;
+  padding: 8px 12px;
+  background-color: #1b244a;
+  border: 2px solid #9aabd8;
+  color: #9aabd8;
+  border-radius: 10px;
+}
+
+.ahead {
+  color: lime;
+}
+
+.behind {
+  color: #eeeeee;
+}
